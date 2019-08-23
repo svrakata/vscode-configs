@@ -1,0 +1,12 @@
+{
+    "python.jediEnabled": false,
+    "window.zoomLevel": 1,
+    "tslint.configFile": "/home/svrakata/Programming/vscode-configs/tslint.json",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
+}

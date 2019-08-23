@@ -4,29 +4,42 @@
         "max-line-length": [
             true,
             {
-              "limit": 120,
-              "ignore-pattern": "^import |^export {(.*?)}",
-              "check-strings": true,
-              "check-regex": true
+                "limit": 120,
+                "ignore-pattern": "^import |^export {(.*?)}",
+                "check-strings": true,
+                "check-regex": true
             }
         ],
-        "space-within-parens": [true, 2],
         "new-parens": true,
+        "arrow-parens": true,
         "no-arg": true,
         "no-bitwise": true,
         "no-conditional-assignment": true,
-        "no-consecutive-blank-lines": [true, 3],
+        "no-consecutive-blank-lines": [
+            true,
+            3
+        ],
         "no-console": {
             "severity": "warning",
-            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+            "options": [
+                "debug",
+                "info",
+                "log",
+                "time",
+                "timeEnd",
+                "trace"
+            ]
         },
-        "semicolon": [true, "never"],
+        "semicolon": [
+            true,
+            "never"
+        ],
         "whitespace": [
-            true, 
-            "check-branch", 
-            "check-operator", 
-            "check-module", 
-            "check-separator", 
+            true,
+            "check-branch",
+            "check-operator",
+            "check-module",
+            "check-separator",
             "check-rest-spread",
             "check-type",
             "check-typecast",
@@ -37,7 +50,9 @@
     },
     "jsRules": {
         "max-line-length": {
-            "options": [120]
+            "options": [
+                120
+            ]
         }
     }
 }
