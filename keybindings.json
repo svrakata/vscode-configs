@@ -9,5 +9,15 @@
         "key": "Escape",
         "command": "extension.jumpy-exit",
         "when": "editorTextFocus && jumpy.isJumpyMode"
-    }
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]
