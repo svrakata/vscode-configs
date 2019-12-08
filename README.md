@@ -11,7 +11,7 @@
 
 1. Run the ```set_settings.sh``` script. This will copy keybindings, settings, tslint and typescriptreact to ~/.config/Code/User (Linux only)
 
-2. Run the following comand to extract the list of extensions with executable command to install them on the old machine:
+2. Run the following comand on the old machine to extract the list of extensions with executable command for instalation:
 ```
 code --list-extensions | xargs -L 1 echo code --install-extension
 ```
